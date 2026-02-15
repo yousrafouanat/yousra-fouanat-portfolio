@@ -23,22 +23,24 @@ const translations = {
 
     // Hero Section
     "hero.welcome": "Bienvenue sur le portfolio de Yousra FOUANAT",
-    "hero.subtitle": "Étudiante L3 MIAGE | Développeuse Frontend | Designer UI/UX",
+    "hero.subtitle": "Étudiante en L3 MIAGE | À la recherche d'une alternance en DATA science à partir de septembre 2026 | DATA enthousiaste | UI/UX Designer",
     "hero.viewProjects": "Voir les Projets",
     "hero.contactMe": "Me Contacter",
 
     // About Section
     "about.title": "À propos de moi",
     "about.mobileDesc":
-      "Étudiante L3 MIAGE et Développeuse Frontend. Passionnée par la création de solutions numériques, des plateformes web aux applications mobiles. Actuellement à la recherche d'un stage de 2 mois pour appliquer mes compétences dans des projets concrets.",
+      "Étudiante en L3 MIAGE, passionnée par le développement et la data. À la recherche d'une alternance de 24 mois dans le domaine de la data en Île-de-France.",
     "about.greeting": "Salut, je suis Yousra Fouanat !",
     "about.description1":
-      "Étudiante L3 MIAGE à l'Université de Rennes et développeuse passionnée qui aime transformer les idées en réalité numérique ! Que ce soit des applications web, des applications mobiles ou du design UI/UX, j'aime créer des solutions qui font la différence.",
+      "Étudiante en L3 MIAGE à l'Université de Rennes, passionnée par le développement et la data, j'aime transformer les idées en solutions numériques concrètes. Que ce soit à travers des applications web, des projets data ou du design UI/UX, je prends plaisir à concevoir des expériences utiles et impactantes.",
     "about.description2":
-      "Actuellement à la recherche d'un stage de 2 mois pour appliquer mes compétences dans un environnement professionnel. Connectons-nous et construisons quelque chose d'incroyable ensemble !",
+      "Actuellement à la recherche d'une alternance de 24 mois dans le domaine de la data en Île-de-France, afin de mettre en pratique mes compétences, approfondir mes connaissances et contribuer à des projets innovants au sein d'une équipe dynamique. Connectons-nous et construisons quelque chose d'incroyable ensemble !",
 
     // Professional Experience
     "experience.title": "Expérience Professionnelle",
+    "experience.samsic.desc":
+      "Mise en place d'une stratégie de tests automatisés sur une brique GraphQL et développement d'évolutions applicatives. Cartographie des endpoints GraphQL, mise en place de tests unitaires et d'intégration, intégration dans le pipeline CI/CD (GitLab CI), création de rapports de tests automatisés, refonte d'écrans (structure, logique fonctionnelle, qualité du code) et développement d'évolutions fonctionnelles sur l'application Symfony existante. Collaboration en équipe agile orientée qualité.",
     "experience.khadmoney.desc":
       "Développement de l'interface d'un site e-commerce avec React.js. Focus sur l'expérience utilisateur et le design responsive. Collaboration avec l'équipe backend pour l'intégration des APIs.",
     "experience.etic.desc":
@@ -96,6 +98,11 @@ const translations = {
     "projects.selekny.figma": "Design UI Figma",
     "projects.selekny.instagram": "Instagram",
 
+    "projects.studentway.title": "Projet de Création d'Entreprise - EasyMake / StudentWay",
+    "projects.studentway.desc":
+      "Projet de création d'entreprise réalisé en équipe de 8 dans le cadre du module Droit des entreprises (L3 MIAGE, ISTIC). Rôle : Cheffe d'équipe (répartition des tâches, coordination, suivi de l'avancement). Conception d'EasyMake, une ESN accompagnant des projets numériques, et de StudentWay, une plateforme dédiée à l'accompagnement des étudiants en France (démarches administratives, logement, santé). Élaboration d'un modèle économique scalable (commissions, services premium, abonnements institutionnels), d'un plan de financement détaillé et d'un cadre juridique (SAS, RGPD, propriété intellectuelle).",
+    "projects.studentway.date": "Octobre - Décembre 2025",
+
     "projects.speech.title": "Gestion de Clinique d'Orthophonie",
     "projects.speech.desc":
       "Application de bureau Java/JavaFX pour la gestion d'une clinique d'orthophonie. Fonctionnalités : suivi des patients, planification des rendez-vous et gestion de la facturation.",
@@ -113,22 +120,24 @@ const translations = {
 
     // Hero Section
     "hero.welcome": "Welcome to the portfolio of Yousra FOUANAT",
-    "hero.subtitle": "L3 MIAGE Student | Frontend Developer | UI/UX Designer",
+    "hero.subtitle": "L3 MIAGE Student | Seeking a DATA Science Apprenticeship from September 2026 | DATA Enthusiast | UI/UX Designer",
     "hero.viewProjects": "View Projects",
     "hero.contactMe": "Contact Me",
 
     // About Section
     "about.title": "About Me",
     "about.mobileDesc":
-      "L3 MIAGE Student and Frontend Developer. Passionate about creating digital solutions from web platforms to mobile apps. Currently seeking a 2-month internship to apply my skills in real-world projects.",
+      "L3 MIAGE Student, passionate about development and data. Seeking a 24-month apprenticeship in data in the Île-de-France region.",
     "about.greeting": "Hey, I'm Yousra Fouanat!",
     "about.description1":
-      "A L3 MIAGE student at Université de Rennes and passionate developer who loves turning ideas into digital reality! Whether it's web applications, mobile apps, or UI/UX design, I enjoy creating solutions that make a difference.",
+      "A L3 MIAGE student at Université de Rennes, passionate about development and data, I love turning ideas into concrete digital solutions. Whether through web applications, data projects, or UI/UX design, I enjoy creating useful and impactful experiences.",
     "about.description2":
-      "Currently seeking a 2-month internship to apply my skills in a professional environment. Let's connect and build something amazing together!",
+      "Currently seeking a 24-month apprenticeship in data in the Île-de-France region, to put my skills into practice, deepen my knowledge, and contribute to innovative projects within a dynamic team. Let's connect and build something amazing together!",
 
     // Professional Experience
     "experience.title": "Professional Experience",
+    "experience.samsic.desc":
+      "Implementation of an automated testing strategy on a GraphQL layer and development of application enhancements. Mapping GraphQL endpoints, setting up unit and integration tests, integrating tests into the CI/CD pipeline (GitLab CI), creating automated test reports, redesigning screens (structure, functional logic, code quality), and developing functional evolutions on the existing Symfony application. Collaboration within an agile, quality-oriented team.",
     "experience.khadmoney.desc":
       "Developed e-commerce website interface using React.js. Focused on user experience and responsive design. Collaborated with backend team for API integration.",
     "experience.etic.desc":
@@ -184,6 +193,11 @@ const translations = {
     "projects.selekny.website": "App Website",
     "projects.selekny.figma": "Figma UI Design",
     "projects.selekny.instagram": "Instagram",
+
+    "projects.studentway.title": "Business Creation Project - EasyMake / StudentWay",
+    "projects.studentway.desc":
+      "Business creation project carried out by a team of 8 as part of the Business Law module (L3 MIAGE, ISTIC). Role: Team Leader (task allocation, coordination, progress tracking). Designed EasyMake, a digital services company supporting various digital projects, and StudentWay, a platform dedicated to assisting students in France (administrative procedures, housing, healthcare). Developed a scalable business model (commissions, premium services, institutional subscriptions), a detailed financing plan, and a legal framework (SAS, GDPR, intellectual property).",
+    "projects.studentway.date": "October - December 2025",
 
     "projects.speech.title": "Speech Therapy Clinic Management",
     "projects.speech.desc":

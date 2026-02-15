@@ -7,6 +7,27 @@ import { useLanguage } from "@/contexts/LanguageContext"
 
 const experienceData = [
   {
+    id: 4,
+    company: "Samsic Groupe",
+    role: "Software Testing & Development Intern",
+    roleFr: "Stagiaire Tests Automatisés & Développement",
+    period: "April - August 2026",
+    periodFr: "Avril - Août 2026",
+    location: "Rennes, France",
+    locationFr: "Rennes, France",
+    type: "Internship",
+    typeFr: "Stage",
+    logo: "/images/logo-samsic-groupe.jpg",
+    skills: ["PHP", "Symfony", "GraphQL", "GitLab CI", "CI/CD", "Automated Testing", "Agile"],
+    skillsFr: ["PHP", "Symfony", "GraphQL", "GitLab CI", "CI/CD", "Tests Automatisés", "Agile"],
+    images: [
+      {
+        src: "/images/samsic-experience.jpg",
+        alt: "Samsic Groupe - Headquarters Building",
+      },
+    ],
+  },
+  {
     id: 1,
     company: "KHADMONEY",
     role: "Frontend Developer Intern",
@@ -92,6 +113,8 @@ const skillsCategories = [
       { name: "Dart", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" },
       { name: "C", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
       { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { name: "R", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" },
+      { name: "PHP", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
     ],
   },
   {
@@ -102,6 +125,8 @@ const skillsCategories = [
       { name: "Angular", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" },
       { name: "Flutter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
       { name: "Django", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
+      { name: "Symfony", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" },
+      { name: "Twig", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" },
     ],
   },
   {
@@ -112,6 +137,9 @@ const skillsCategories = [
       { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
       { name: "Git/GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "Firebase", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
+      { name: "RStudio", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rstudio/rstudio-original.svg" },
+      { name: "Excel", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
+      { name: "Oracle", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" },
     ],
   },
 ]
@@ -183,13 +211,13 @@ export default function AboutMe() {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="p-6 flex flex-col">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center overflow-hidden p-3">
+                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center overflow-hidden p-1">
                           <Image
                             src={item.logo || "/placeholder.svg"}
                             alt={item.company}
                             width={70}
                             height={70}
-                            className="object-contain"
+                            className={`${item.id === 4 ? "object-cover scale-150" : "object-contain"}`}
                           />
                         </div>
                         <div>
@@ -219,6 +247,7 @@ export default function AboutMe() {
                         {item.id === 1 && t("experience.khadmoney.desc")}
                         {item.id === 2 && t("experience.etic.desc")}
                         {item.id === 3 && t("experience.freelance.desc")}
+                        {item.id === 4 && t("experience.samsic.desc")}
                       </p>
 
                       {item.skills.length > 0 && (

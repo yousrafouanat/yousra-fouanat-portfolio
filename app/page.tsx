@@ -179,6 +179,7 @@ export default function Home() {
             <div className="max-w-3xl mx-auto text-center">
               <a
                 href="/cv/CV-Yousra-Fouanat-L3-MIAGE.pdf"
+                download="CV-Yousra-Fouanat-L3-MIAGE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
@@ -218,6 +219,24 @@ function ProjectCard() {
   const { t } = useLanguage()
 
   const projectsData = [
+    {
+      id: 5,
+      title: t("projects.studentway.title"),
+      description: t("projects.studentway.desc"),
+      tags: ["Business Law", "Project Management", "Business Model", "Financial Planning", "GDPR", "Team Leadership"],
+      logo: "/images/logo-studentway.png",
+      date: t("projects.studentway.date"),
+      images: [
+        {
+          src: "/images/studentway-organigramme.png",
+          alt: "StudentWay - Organization Chart",
+        },
+        {
+          src: "/images/studentway-bilan-financier.png",
+          alt: "StudentWay - Financial Balance Sheet",
+        },
+      ],
+    },
     {
       id: 1,
       title: t("projects.unis.title"),
@@ -382,13 +401,13 @@ function ProjectCard() {
               {/* Project Header with Logo and Date */}
               <div className="flex items-center gap-4 mb-6">
                 {project.logo && (
-                  <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden p-2 flex-shrink-0">
+                  <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden flex-shrink-0">
                     <Image
                       src={project.logo || "/placeholder.svg"}
                       alt={`${project.title} Logo`}
                       width={60}
                       height={60}
-                      className="object-contain w-full h-full rounded-full"
+                      className={`object-contain w-full h-full rounded-full ${project.id === 5 ? "scale-125" : ""}`}
                       style={{ clipPath: "circle(50%)" }}
                     />
                   </div>
