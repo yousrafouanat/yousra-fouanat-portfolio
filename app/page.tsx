@@ -358,6 +358,24 @@ function ProjectCard() {
       ],
     },
     {
+      id: 5,
+      title: t("projects.studentway.title"),
+      description: t("projects.studentway.desc"),
+      tags: ["Business Law", "Project Management", "Business Model", "Financial Planning", "GDPR", "Team Leadership"],
+      logo: "/images/logo-studentway.png",
+      date: t("projects.studentway.date"),
+      images: [
+        {
+          src: "/images/studentway-organigramme.png",
+          alt: "StudentWay - Organization Chart",
+        },
+        {
+          src: "/images/studentway-bilan-financier.png",
+          alt: "StudentWay - Financial Balance Sheet",
+        },
+      ],
+    },
+    {
       id: 4,
       title: t("projects.speech.title"),
       description: t("projects.speech.desc"),

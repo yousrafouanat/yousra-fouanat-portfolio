@@ -98,6 +98,11 @@ const translations = {
     "projects.selekny.figma": "Design UI Figma",
     "projects.selekny.instagram": "Instagram",
 
+    "projects.studentway.title": "Projet de Création d'Entreprise - EasyMake / StudentWay",
+    "projects.studentway.desc":
+      "Projet de création d'entreprise réalisé en équipe de 8 dans le cadre du module Droit des entreprises (L3 MIAGE, ISTIC). Rôle : Cheffe d'équipe (répartition des tâches, coordination, suivi de l'avancement). Conception d'EasyMake, une ESN accompagnant des projets numériques, et de StudentWay, une plateforme dédiée à l'accompagnement des étudiants en France (démarches administratives, logement, santé). Élaboration d'un modèle économique scalable (commissions, services premium, abonnements institutionnels), d'un plan de financement détaillé et d'un cadre juridique (SAS, RGPD, propriété intellectuelle).",
+    "projects.studentway.date": "2025",
+
     "projects.speech.title": "Gestion de Clinique d'Orthophonie",
     "projects.speech.desc":
       "Application de bureau Java/JavaFX pour la gestion d'une clinique d'orthophonie. Fonctionnalités : suivi des patients, planification des rendez-vous et gestion de la facturation.",
@@ -188,6 +193,11 @@ const translations = {
     "projects.selekny.website": "App Website",
     "projects.selekny.figma": "Figma UI Design",
     "projects.selekny.instagram": "Instagram",
+
+    "projects.studentway.title": "Business Creation Project - EasyMake / StudentWay",
+    "projects.studentway.desc":
+      "Business creation project carried out by a team of 8 as part of the Business Law module (L3 MIAGE, ISTIC). Role: Team Leader (task allocation, coordination, progress tracking). Designed EasyMake, a digital services company supporting various digital projects, and StudentWay, a platform dedicated to assisting students in France (administrative procedures, housing, healthcare). Developed a scalable business model (commissions, premium services, institutional subscriptions), a detailed financing plan, and a legal framework (SAS, GDPR, intellectual property).",
+    "projects.studentway.date": "2025",
 
     "projects.speech.title": "Speech Therapy Clinic Management",
     "projects.speech.desc":
