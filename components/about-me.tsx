@@ -22,8 +22,8 @@ const experienceData = [
     skillsFr: ["PHP", "Symfony", "GraphQL", "GitLab CI", "CI/CD", "Tests Automatisés", "Agile"],
     images: [
       {
-        src: "/images/samsic-groupe-experience.jpeg",
-        alt: "Samsic Groupe - Office Building",
+        src: "/images/samsic-experience.jpg",
+        alt: "Samsic Groupe - Headquarters Building",
       },
     ],
   },
@@ -211,13 +211,13 @@ export default function AboutMe() {
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     <div className="p-6 flex flex-col">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center overflow-hidden p-3">
+                        <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center overflow-hidden p-1">
                           <Image
                             src={item.logo || "/placeholder.svg"}
                             alt={item.company}
                             width={70}
                             height={70}
-                            className="object-contain"
+                            className={`${item.id === 4 ? "object-cover scale-150" : "object-contain"}`}
                           />
                         </div>
                         <div>
