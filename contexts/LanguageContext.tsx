@@ -23,19 +23,19 @@ const translations = {
 
     // Hero Section
     "hero.welcome": "Bienvenue sur le portfolio de Yousra FOUANAT",
-    "hero.subtitle": "Étudiante L3 MIAGE | Développeuse Frontend | Designer UI/UX",
+    "hero.subtitle": "Étudiante en L3 MIAGE | À la recherche d'une alternance en DATA science à partir de septembre 2026 | DATA enthousiaste | UI/UX Designer",
     "hero.viewProjects": "Voir les Projets",
     "hero.contactMe": "Me Contacter",
 
     // About Section
     "about.title": "À propos de moi",
     "about.mobileDesc":
-      "Étudiante L3 MIAGE et Développeuse Frontend. Passionnée par la création de solutions numériques, des plateformes web aux applications mobiles. Actuellement à la recherche d'un stage de 2 mois pour appliquer mes compétences dans des projets concrets.",
+      "Étudiante en L3 MIAGE, passionnée par le développement et la data. À la recherche d'une alternance de 24 mois dans le domaine de la data en Île-de-France.",
     "about.greeting": "Salut, je suis Yousra Fouanat !",
     "about.description1":
-      "Étudiante L3 MIAGE à l'Université de Rennes et développeuse passionnée qui aime transformer les idées en réalité numérique ! Que ce soit des applications web, des applications mobiles ou du design UI/UX, j'aime créer des solutions qui font la différence.",
+      "Étudiante en L3 MIAGE à l'Université de Rennes, passionnée par le développement et la data, j'aime transformer les idées en solutions numériques concrètes. Que ce soit à travers des applications web, des projets data ou du design UI/UX, je prends plaisir à concevoir des expériences utiles et impactantes.",
     "about.description2":
-      "Actuellement à la recherche d'un stage de 2 mois pour appliquer mes compétences dans un environnement professionnel. Connectons-nous et construisons quelque chose d'incroyable ensemble !",
+      "Actuellement à la recherche d'une alternance de 24 mois dans le domaine de la data en Île-de-France, afin de mettre en pratique mes compétences, approfondir mes connaissances et contribuer à des projets innovants au sein d'une équipe dynamique. Connectons-nous et construisons quelque chose d'incroyable ensemble !",
 
     // Professional Experience
     "experience.title": "Expérience Professionnelle",
@@ -113,19 +113,19 @@ const translations = {
 
     // Hero Section
     "hero.welcome": "Welcome to the portfolio of Yousra FOUANAT",
-    "hero.subtitle": "L3 MIAGE Student | Frontend Developer | UI/UX Designer",
+    "hero.subtitle": "L3 MIAGE Student | Seeking a DATA Science Apprenticeship from September 2026 | DATA Enthusiast | UI/UX Designer",
     "hero.viewProjects": "View Projects",
     "hero.contactMe": "Contact Me",
 
     // About Section
     "about.title": "About Me",
     "about.mobileDesc":
-      "L3 MIAGE Student and Frontend Developer. Passionate about creating digital solutions from web platforms to mobile apps. Currently seeking a 2-month internship to apply my skills in real-world projects.",
+      "L3 MIAGE Student, passionate about development and data. Seeking a 24-month apprenticeship in data in the Île-de-France region.",
     "about.greeting": "Hey, I'm Yousra Fouanat!",
     "about.description1":
-      "A L3 MIAGE student at Université de Rennes and passionate developer who loves turning ideas into digital reality! Whether it's web applications, mobile apps, or UI/UX design, I enjoy creating solutions that make a difference.",
+      "A L3 MIAGE student at Université de Rennes, passionate about development and data, I love turning ideas into concrete digital solutions. Whether through web applications, data projects, or UI/UX design, I enjoy creating useful and impactful experiences.",
     "about.description2":
-      "Currently seeking a 2-month internship to apply my skills in a professional environment. Let's connect and build something amazing together!",
+      "Currently seeking a 24-month apprenticeship in data in the Île-de-France region, to put my skills into practice, deepen my knowledge, and contribute to innovative projects within a dynamic team. Let's connect and build something amazing together!",
 
     // Professional Experience
     "experience.title": "Professional Experience",
