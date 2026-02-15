@@ -7,6 +7,27 @@ import { useLanguage } from "@/contexts/LanguageContext"
 
 const experienceData = [
   {
+    id: 4,
+    company: "Samsic Groupe",
+    role: "Software Testing & Development Intern",
+    roleFr: "Stagiaire Tests Automatisés & Développement",
+    period: "April - August 2026",
+    periodFr: "Avril - Août 2026",
+    location: "Rennes, France",
+    locationFr: "Rennes, France",
+    type: "Internship",
+    typeFr: "Stage",
+    logo: "/images/logo-samsic-groupe.jpg",
+    skills: ["PHP", "Symfony", "GraphQL", "GitLab CI", "CI/CD", "Automated Testing", "Agile"],
+    skillsFr: ["PHP", "Symfony", "GraphQL", "GitLab CI", "CI/CD", "Tests Automatisés", "Agile"],
+    images: [
+      {
+        src: "/images/samsic-groupe-experience.jpeg",
+        alt: "Samsic Groupe - Office Building",
+      },
+    ],
+  },
+  {
     id: 1,
     company: "KHADMONEY",
     role: "Frontend Developer Intern",
@@ -226,6 +247,7 @@ export default function AboutMe() {
                         {item.id === 1 && t("experience.khadmoney.desc")}
                         {item.id === 2 && t("experience.etic.desc")}
                         {item.id === 3 && t("experience.freelance.desc")}
+                        {item.id === 4 && t("experience.samsic.desc")}
                       </p>
 
                       {item.skills.length > 0 && (

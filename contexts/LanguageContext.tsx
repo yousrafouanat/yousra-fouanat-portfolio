@@ -39,6 +39,8 @@ const translations = {
 
     // Professional Experience
     "experience.title": "Expérience Professionnelle",
+    "experience.samsic.desc":
+      "Mise en place d'une stratégie de tests automatisés sur une brique GraphQL et développement d'évolutions applicatives. Cartographie des endpoints GraphQL, mise en place de tests unitaires et d'intégration, intégration dans le pipeline CI/CD (GitLab CI), création de rapports de tests automatisés, refonte d'écrans (structure, logique fonctionnelle, qualité du code) et développement d'évolutions fonctionnelles sur l'application Symfony existante. Collaboration en équipe agile orientée qualité.",
     "experience.khadmoney.desc":
       "Développement de l'interface d'un site e-commerce avec React.js. Focus sur l'expérience utilisateur et le design responsive. Collaboration avec l'équipe backend pour l'intégration des APIs.",
     "experience.etic.desc":
@@ -129,6 +131,8 @@ const translations = {
 
     // Professional Experience
     "experience.title": "Professional Experience",
+    "experience.samsic.desc":
+      "Implementation of an automated testing strategy on a GraphQL layer and development of application enhancements. Mapping GraphQL endpoints, setting up unit and integration tests, integrating tests into the CI/CD pipeline (GitLab CI), creating automated test reports, redesigning screens (structure, functional logic, code quality), and developing functional evolutions on the existing Symfony application. Collaboration within an agile, quality-oriented team.",
     "experience.khadmoney.desc":
       "Developed e-commerce website interface using React.js. Focused on user experience and responsive design. Collaborated with backend team for API integration.",
     "experience.etic.desc":
