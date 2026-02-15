@@ -219,6 +219,24 @@ function ProjectCard() {
 
   const projectsData = [
     {
+      id: 5,
+      title: t("projects.studentway.title"),
+      description: t("projects.studentway.desc"),
+      tags: ["Business Law", "Project Management", "Business Model", "Financial Planning", "GDPR", "Team Leadership"],
+      logo: "/images/logo-studentway.png",
+      date: t("projects.studentway.date"),
+      images: [
+        {
+          src: "/images/studentway-organigramme.png",
+          alt: "StudentWay - Organization Chart",
+        },
+        {
+          src: "/images/studentway-bilan-financier.png",
+          alt: "StudentWay - Financial Balance Sheet",
+        },
+      ],
+    },
+    {
       id: 1,
       title: t("projects.unis.title"),
       description: (
@@ -358,24 +376,6 @@ function ProjectCard() {
       ],
     },
     {
-      id: 5,
-      title: t("projects.studentway.title"),
-      description: t("projects.studentway.desc"),
-      tags: ["Business Law", "Project Management", "Business Model", "Financial Planning", "GDPR", "Team Leadership"],
-      logo: "/images/logo-studentway.png",
-      date: t("projects.studentway.date"),
-      images: [
-        {
-          src: "/images/studentway-organigramme.png",
-          alt: "StudentWay - Organization Chart",
-        },
-        {
-          src: "/images/studentway-bilan-financier.png",
-          alt: "StudentWay - Financial Balance Sheet",
-        },
-      ],
-    },
-    {
       id: 4,
       title: t("projects.speech.title"),
       description: t("projects.speech.desc"),
@@ -400,13 +400,13 @@ function ProjectCard() {
               {/* Project Header with Logo and Date */}
               <div className="flex items-center gap-4 mb-6">
                 {project.logo && (
-                  <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden p-2 flex-shrink-0">
+                  <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden flex-shrink-0">
                     <Image
                       src={project.logo || "/placeholder.svg"}
                       alt={`${project.title} Logo`}
                       width={60}
                       height={60}
-                      className="object-contain w-full h-full rounded-full"
+                      className={`object-contain w-full h-full rounded-full ${project.id === 5 ? "scale-125" : ""}`}
                       style={{ clipPath: "circle(50%)" }}
                     />
                   </div>
