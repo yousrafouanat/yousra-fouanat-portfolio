@@ -179,6 +179,7 @@ export default function Home() {
             <div className="max-w-3xl mx-auto text-center">
               <a
                 href="/cv/CV-Yousra-Fouanat-L3-MIAGE.pdf"
+                download="CV-Yousra-Fouanat-L3-MIAGE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-lg font-medium rounded-md text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
